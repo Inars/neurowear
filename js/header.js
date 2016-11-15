@@ -12,7 +12,7 @@ function drawMagnifier(){
     ctx.arc(-2, -2, radius, 0, 2*Math.PI);
     ctx.fillStyle = 'transparent';
     ctx.fill();
-    ctx.strokeStyle = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05).addColorStop(0, 'black');
+    ctx.strokeStyle = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05).addColorStop(0, 'white');
     ctx.lineWidth = radius*0.4;
     ctx.stroke();
     ctx.beginPath();
