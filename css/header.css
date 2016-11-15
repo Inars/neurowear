@@ -1,5 +1,5 @@
 .header-main{
-
+    color: #ffffff;
 }
 
 .header-sub {
@@ -10,8 +10,19 @@
 
 }
 
-.nav-list-item {
+.top-nav-bar a {
+    font-family: "Gotham SSm A", "Gotham SSm B", Helvetica,Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.nav-list-item {
+    display: inline;
 }
 
 .col-1 {
